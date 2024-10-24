@@ -1,0 +1,83 @@
+/* Make the entire body the same color as the header */
+body {
+    background-color: #ffffff; /* Cute light green background for the entire page */
+    margin: 0; /* Remove any default margin from the body */
+    font-family: 'Arial', sans-serif; /* Apply the same font across the whole page */
+}
+
+/* Style for the header section */
+#header {
+    background-color: #a0db8e; /* Same green as the body */
+    color: #ffffff; /* White text */
+    text-align: center; /* Center the text */
+    padding: 50px 0; /* Add padding to the header */
+}
+
+/* Style for the h1 inside the header */
+#header h1 {
+    font-size: 48px; /* Large font for the h1 */
+    font-weight: bold; /* Bold text */
+    margin: 0; /* Remove default margin */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Soft text shadow for h1 */
+}
+
+#Body {
+    text-align: center; /* Centers the content within the section */
+}
+
+#Body img {
+    width: 150px; /* Set the width of the image */
+    height: 150px; /* Set the height to make it a perfect circle */
+    border-radius: 50%; /* Makes the image rounded */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    margin-top: 20px; /* Adds some space above the image */
+}
+
+#My\ touch\ points {
+    text-align: center; /* Centers the content within the section */
+}
+#My\ touch\ points li {
+    display: inline; /* Displays list items in a single line */
+    margin: 0 20px; /* Adds some space between icons */
+}
+
+#My\ touch\ points a {
+    text-decoration: none; /* Removes underline from links */
+    color: inherit; /* Inherits text color for links */
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color:#e4a621;
+    color: white;
+}
+  
+footer {
+    background-color: black; 
+    color: white; 
+    padding: 10px; 
+    text-align: center; 
+}
+table {
+    margin-bottom: 20px; /* Adjust the value as needed */
+}
+
+footer {
+    background-color: #a0db8e; 
+    color: white; 
+    padding: 10px 10px 10px; /* Add top padding */
+    text-align: center; 
+}
+
